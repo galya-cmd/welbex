@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap');
 .footer__container {
     display: flex;
     flex-wrap: wrap;
@@ -24,6 +25,11 @@
 }
 
 .footer__link {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
     color: #E4E5EA;
     text-decoration: none;
     font-size: 14px;

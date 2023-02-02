@@ -43,7 +43,7 @@ function Main(){
                     <p>с показателями <br></br> вашего бизнеса</p>
                     <div className='intro__box'>
                     <h3>35 дней</h3>
-                    <p>использования <br></br> CRM</p>
+                    <p>использования<br></br> CRM</p>
                 </div>
                 </div>
                 </div>
