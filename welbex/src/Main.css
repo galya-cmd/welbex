@@ -11,7 +11,7 @@
     margin-top: 129px;
 }
 .main__container-two{
-     background: url(./assets/img/red\ ball-mini.svg) top 430px left 0 / 30px 30px no-repeat;
+     background: url(./assets/img/red_ball.svg) top 430px left 0 / 30px 30px no-repeat;
      display: flex;
     flex-direction: column; 
     align-items: flex-end;
