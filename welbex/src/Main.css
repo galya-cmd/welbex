@@ -1,0 +1,102 @@
+ /* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap'); */
+
+
+ .main__container{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    margin-top: 129px;
+}
+.main__container-two{
+     background: url(./assets/img/red\ ball-mini.svg) top 430px left 0 / 30px 30px no-repeat;
+     display: flex;
+    flex-direction: column; 
+    align-items: flex-end;
+    
+}
+.intro{
+    margin-right: 15px;
+}
+.intro__logo{ 
+     width: 291px;
+    height: 44px; 
+     width: 100%;
+    max-width: 291px;
+    height: auto;
+    margin-bottom: 40px;
+}
+.intro__right{
+    display: flex;
+    align-items: flex-end;
+}
+.intro__box{
+    display: flex;
+     margin-left: 31px; 
+     flex-direction: column;
+    align-items: flex-end;
+} 
+.intro__button{
+    width: 262px;
+    height: 61px;
+    background: #4077F3;
+    color: white;
+    font-size: 16px;
+    margin-top: 61px;
+    border: none;
+ } 
+
+ h3{
+    font-family: 'Inter', sans-serif;
+} 
+.intro__tittle{
+    max-width: 362px;
+    color: #E4E5EA;
+    font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+
+}
+p , h3 {
+    color: white;
+}
+
+@media only screen and (max-width: 320px) {
+    .main__container{
+        margin-top: 0;
+    }
+    .intro__tittle{      
+        box-sizing: border-box;
+        width: 272px;
+        height: 88px;
+        color: white;
+        font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+    }
+    .intro__logo{ 
+    height: 44px;
+    max-width: 186px;
+    font-weight: 900;
+font-size: 36px;
+line-height: 44px;
+   }
+   .intro__logo{
+    margin-bottom: 10px;
+   }
+   .intro__right{
+    display: none;
+   }
+   .main__container-two{
+    display: flex;
+    align-items: center;
+}
+}
+@media (min-width: 320px) and (max-width: 868px){
+    .main__container{
+        margin-top: 0;
+    }
+  
+}

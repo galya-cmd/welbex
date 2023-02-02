@@ -1,0 +1,160 @@
+.footer__container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 124px;
+
+}
+
+.three {
+    display: flex;
+
+}
+
+.footer__item {
+    list-style-type: none;
+
+}
+
+.footer__container-li {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footer__link {
+    color: #E4E5EA;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 19px;
+
+}
+
+.four {
+    display: flex;
+    /* margin-left: 31px;  */
+    flex-direction: column;
+
+}
+
+.footer__end {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+h4 {
+    color: white;
+}
+
+.Footer__tittle {
+    display: flex;
+    color: #656566;
+}
+
+.footer__color {
+    color: #656566;
+}
+
+.footer__container-margin {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-right: 52px;
+}
+
+.footer__container-margin:last-child {
+    margin-right: 0;
+}
+
+.footer__icon-list {
+    display: flex;
+    margin-top: 24px;
+}
+
+.four__ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.icon-list {
+    margin-right: 13px
+}
+
+.three__ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer__link:hover,
+.footer__link:focus,
+.footer__link:active {
+    opacity: 75%;
+}
+
+
+@media only screen and (max-width: 320px) {
+    .footer__color {
+        margin-top: 0;
+    }
+
+    .three {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .four {
+        margin-left: 0;
+
+    }
+
+    .four__ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .footer__icon-list {
+        display: flex;
+        margin-top: 9px;
+    }
+
+    .footer__item p {
+        margin-top: 9px;
+    }
+
+    .footer__end {
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .footer__color {
+        display: flex;
+        margin-left: 26px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 868px) {
+    .four {
+        display: flex;
+
+    }
+
+    .four__ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+}
