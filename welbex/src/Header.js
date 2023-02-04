@@ -18,7 +18,6 @@ import {faHome} from '@fortawesome/free-solid-svg-icons';
                 <a href='#' className="header__logo-link header__item">
                     <img src={logo} alt="logo"></img>
                 </a>
-              
                 </div>
 
 
@@ -53,9 +52,7 @@ import {faHome} from '@fortawesome/free-solid-svg-icons';
                     <li className='header__item-contacts'> <a className='header__link icon' href='#'><FontAwesomeIcon icon={faWhatsapp} /></a></li>
                 </ul>
                 </div>
-
-            </div>
-            
+            </div>            
         </div>
         
     )

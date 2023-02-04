@@ -13,11 +13,8 @@ function Main(){
                     <div className='main__container-one'>
                     <div className='intro__tittle'>
                     Зарабатывайте больше
-                    </div>
-                    
-                    <img  className='intro__logo' src={welbex}></img>
-                    
-                    
+                    </div>                    
+                    <img  className='intro__logo' src={welbex}></img>                    
                     <p className='intro__text'>Развиваем и контролируем <br/> продажи за вас</p>
                     </div>
                     
@@ -34,10 +31,9 @@ function Main(){
                     <div className='intro__box'>
                     <h3>Skype Аудит</h3>
                     <p>отдела продажи <br></br> CRM системы</p>
-                   
                     </div>
                     </div>
-               
+
                     <div className='intro__box'>
                     <h3>Dashboard</h3>
                     <p>с показателями <br></br> вашего бизнеса</p>
@@ -47,11 +43,9 @@ function Main(){
                 </div>
                 </div>
                 </div>
-               
                 
                     <button className='intro__button'>Получить консультацию</button>
-                </div>
-                
+                </div>                
                 </div>                
             </div>
         </div>
