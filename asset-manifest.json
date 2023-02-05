@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/galya-cmd/welbex.git/static/css/main.d440de83.css",
-    "main.js": "/galya-cmd/welbex.git/static/js/main.4f70cff5.js",
+    "main.js": "/galya-cmd/welbex.git/static/js/main.3d175b2f.js",
     "static/js/787.08f9b020.chunk.js": "/galya-cmd/welbex.git/static/js/787.08f9b020.chunk.js",
     "static/media/text.svg": "/galya-cmd/welbex.git/static/media/text.a9f5760ca3482d671129f8ebf3d57e8a.svg",
     "static/media/purpleball.png": "/galya-cmd/welbex.git/static/media/purpleball.7f9f18e203cbe216cca5.png",
@@ -10,11 +10,11 @@
     "static/media/red_ball.svg": "/galya-cmd/welbex.git/static/media/red_ball.d0944b6e50e80d4994d4.svg",
     "index.html": "/galya-cmd/welbex.git/index.html",
     "main.d440de83.css.map": "/galya-cmd/welbex.git/static/css/main.d440de83.css.map",
-    "main.4f70cff5.js.map": "/galya-cmd/welbex.git/static/js/main.4f70cff5.js.map",
+    "main.3d175b2f.js.map": "/galya-cmd/welbex.git/static/js/main.3d175b2f.js.map",
     "787.08f9b020.chunk.js.map": "/galya-cmd/welbex.git/static/js/787.08f9b020.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d440de83.css",
-    "static/js/main.4f70cff5.js"
+    "static/js/main.3d175b2f.js"
   ]
 }
