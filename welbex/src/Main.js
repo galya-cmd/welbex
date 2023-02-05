@@ -24,22 +24,23 @@ function Main(){
                         </div>
                     
                     <div className='intro__right'>
+
                     <div className='intro__box'>
                     <h3>Виджеты</h3>
-                    <p>
-                        30 готовых <br></br> решений</p>
+                    <p className='intro__box-text'>
+                        30 готовых решений</p>
                     <div className='intro__box'>
                     <h3>Skype Аудит</h3>
-                    <p>отдела продажи <br></br> CRM системы</p>
+                    <p className='intro__box-skype'>отдела продажи CRM системы</p>
                     </div>
                     </div>
 
                     <div className='intro__box'>
                     <h3>Dashboard</h3>
-                    <p>с показателями <br></br> вашего бизнеса</p>
+                    <p className='intro__box-dashboard'>с показателями вашего бизнеса</p>
                     <div className='intro__box'>
                     <h3>35 дней</h3>
-                    <p>использования<br></br> CRM</p>
+                    <p className='intro__box-date'>использования CRM</p>
                 </div>
                 </div>
                 </div>

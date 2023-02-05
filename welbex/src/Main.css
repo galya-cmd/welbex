@@ -43,6 +43,22 @@
     flex-direction: column;
     align-items: flex-end;
 }
+.intro__box-skype{
+max-width: 164px;
+text-align: end;
+}
+.intro__box-dashboard{
+    max-width: 135px;
+    text-align: end;
+}
+.intro__box-text{
+    max-width: 89px;
+    text-align: end;
+}
+.intro__box-date{
+    max-width: 130px;
+    text-align: end;
+}
 
 .intro__button {
     width: 262px;
