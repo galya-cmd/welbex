@@ -16,13 +16,14 @@ function App() {
       <Router>
       <Header/>
       <Routes>
-      <Route path='/services' component={<Services/>}></Route>
-      <Route path='/widgets' component={<Widgets/>}></Route>
-      <Route path='/integration' component={<Integration/>}></Route>
-      <Route path='/cases' component={<Cases/>}></Route>
-      <Route path='/certificates' component={<Сertificates/>}></Route>
+      <Route path='/' element={<Main/>}></Route>
+      <Route path='/services' element={<Services/>}></Route>
+      <Route path='/widgets' element={<Widgets/>}></Route>
+      <Route path='/integration' element={<Integration/>}></Route>
+      <Route path='/cases' element={<Cases/>}></Route>
+      <Route path='/certificates' element={<Сertificates/>}></Route>
       </Routes>
-      <Main/>
+      {/* <Main/> */}
       <Footer/>
       </Router>
     </div>

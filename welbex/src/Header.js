@@ -23,6 +23,9 @@ import { Link } from 'react-router-dom';
 
             <nav className='header__nav'>
                 <ul className='header__list'>
+                <li className='header__item'>
+                        <Link to='/'  className='header__link'>Главная</Link>
+                    </li>
                     <li className='header__item'>
                         <Link to='/services'  className='header__link'>Услуги</Link>
                     </li>
