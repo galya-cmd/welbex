@@ -13,8 +13,8 @@ function Footer (){
             <div className='three'>
             <ul className='three__ul'>
         <h4 className='Footer__tittle'>О компании</h4>
-        <li className='footer__item'><a href='#' className='footer__link' >Партнёрская программа</a></li>
-        <li className='footer__item'><a href='#' className='footer__link'>Вакансии</a></li>
+        <li className='footer__item'><Link to='#!' className='footer__link' >Партнёрская программа</Link></li>
+        <li className='footer__item'><Link to='#!' className='footer__link'>Вакансии</Link></li>
         </ul>
         
         <ul>
