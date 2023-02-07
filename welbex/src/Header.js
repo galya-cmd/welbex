@@ -41,7 +41,7 @@ import { Link } from 'react-router-dom';
                     </li>
                     <li className='header__item'>
                         <Link to='/certificates'  className='header__link'>Сертификаты</Link>
-                        <a href='#' ></a>
+                        
                     </li>
                 </ul>
             </nav>
