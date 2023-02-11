@@ -15,7 +15,7 @@ function Main(){
                     Зарабатывайте больше
                     </div>                    
                     <img  className='intro__logo' src={welbex}></img>                    
-                    <p className='intro__text'>Развиваем и контролируем <br/> продажи за вас</p>
+                    <p className='intro__text'>Развиваем и контролируем <br/> продажи за вас</p>
                     </div>
                     
                     <div className='main__container-two'>
@@ -37,7 +37,7 @@ function Main(){
 
                     <div className='intro__box'>
                     <h3>Dashboard</h3>
-                    <p className='intro__box-dashboard'>с показателями вашего бизнеса</p>
+                    <p className='intro__box-dashboard'>с показателями вашего бизнеса</p>
                     <div className='intro__box'>
                     <h3>35 дней</h3>
                     <p className='intro__box-date'>использования CRM</p>

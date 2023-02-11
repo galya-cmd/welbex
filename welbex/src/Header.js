@@ -14,7 +14,6 @@ import { Link } from 'react-router-dom';
         
         <div className="wrapper">
             <div className='header__wrapper'>
-
                 <div className='header__logo'>
                     <Link to='/' className="header__logo-link header__item"><img src={logo} alt="logo"></img></Link>
                 </div>
