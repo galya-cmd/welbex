@@ -1,7 +1,7 @@
 {
   "name": "welbex",
   "version": "0.1.0",
-  "homepage": "https://github.com/galya-cmd/welbex.git",
+  "homepage": "https://github.com/galya-cmd/welbex",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
