@@ -16,7 +16,7 @@ function App() {
       <Router>
       <Header/>
       <Routes>
-      <Route path='/*' element={<Main/>}></Route>
+      <Route path='/' element={<Main/>}></Route>
       <Route path='/services' element={<Services/>}></Route>
       <Route path='/widgets' element={<Widgets/>}></Route>
       <Route path='/integration' element={<Integration/>}></Route>
