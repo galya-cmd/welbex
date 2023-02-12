@@ -48,7 +48,7 @@ import { Link } from 'react-router-dom';
 
             <div className='header__list-right'>
                 <ul className='header__list'>
-                <li className='header__item'><Link to="tel:+7 555 555-55-55" className='footer__link header__link'>+7 555-55-55</Link>
+                <li className='header__item'><Link to="#!" className='footer__link header__link'>+7 555-55-55</Link>
                 </li>
                 <li className='header__item-contacts'><Link to='#'><FontAwesomeIcon icon={faTelegram} className='header__link icon'/></Link></li>
                 <li className='header__item-contacts'><Link to='#'><FontAwesomeIcon icon={faHome} className='header__link icon'/></Link></li>
