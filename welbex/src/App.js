@@ -8,6 +8,8 @@ import Widgets from './Widgets';
 import Integration from './Integration';
 import Cases from './Сases';
 import Сertificates from './Сertificates';
+import NotFound from './NotFound';
+
 
 
 function App() {
@@ -16,14 +18,15 @@ function App() {
       <Router>
       <Header/>
       <Routes>
-      <Route path='/' element={<Main/>}></Route>
+      <Route exact path='/' element={<Main/>}></Route>
       <Route path='/services' element={<Services/>}></Route>
       <Route path='/widgets' element={<Widgets/>}></Route>
       <Route path='/integration' element={<Integration/>}></Route>
       <Route path='/cases' element={<Cases/>}></Route>
       <Route path='/certificates' element={<Сertificates/>}></Route>
+      <Route path='*' element={<NotFound/>}></Route>
       </Routes>
-      {/* <Main/> */}
+      
       <Footer/>
       </Router>
     </div>

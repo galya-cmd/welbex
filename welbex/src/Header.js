@@ -50,9 +50,9 @@ import { Link } from 'react-router-dom';
                 <ul className='header__list'>
                 <li className='header__item'><Link to="tel:+7 555 555-55-55" className='footer__link header__link'>+7 555-55-55</Link>
                 </li>
-                <li className='header__item-contacts'><Link to='#!'><FontAwesomeIcon icon={faTelegram} className='header__link icon'/></Link></li>
-                <li className='header__item-contacts'><Link to='#!'><FontAwesomeIcon icon={faHome} className='header__link icon'/></Link></li>
-                <li className='header__item-contacts'> <Link to='#!' className='header__link icon'><FontAwesomeIcon icon={faWhatsapp} /></Link></li>
+                <li className='header__item-contacts'><Link to='#'><FontAwesomeIcon icon={faTelegram} className='header__link icon'/></Link></li>
+                <li className='header__item-contacts'><Link to='#'><FontAwesomeIcon icon={faHome} className='header__link icon'/></Link></li>
+                <li className='header__item-contacts'> <Link to='#' className='header__link icon'><FontAwesomeIcon icon={faWhatsapp} /></Link></li>
                 </ul>
                 </div>
             </div>            
